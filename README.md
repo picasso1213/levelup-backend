@@ -5,11 +5,6 @@ productos, categorías, usuarios con roles, boletas de compra y el programa de p
 autenticación es stateless con JWT y los datos se guardan en MySQL. El frontend React consume esta API
 bajo el prefijo `/api/v1`.
 
-## Requisitos
-
-- JDK 17 o superior
-- MySQL 8 (la base `levelup` se crea sola gracias a `createDatabaseIfNotExist=true`)
-- Maven 3.9+ (o el Maven integrado de tu IDE)
 
 ## Variables de entorno
 
